@@ -1,0 +1,33 @@
+p{
+    color: grey;
+    padding: 25px;
+
+}
+
+.children {
+    background-color: indigo;
+}
+    
+#container {
+    width: 100%;
+    height: 100%;
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+#header {
+    background-color: gold;
+}
+
+#footer {
+    background-color: red;
+}
+
+#main {
+    border: solid grey 3px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 6px;
+
+}
